@@ -36,7 +36,7 @@ def get_filters():
         input_month = input("Please select a month or all: ").lower()
         if input_month not in month:
             print ("You may have misspell the month, please try again!", end='')
-            input_month = input("Please retype: ")
+            input_month = input("Please retype your month: ")
             
             continue
         else:

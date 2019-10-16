@@ -6,6 +6,9 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+def method_new(input_city):
+    return input_city, input_month, input_day
+
 def get_filters():
     global input_month
     global input_day
@@ -26,7 +29,7 @@ def get_filters():
         input_city = input("Please select the city you would like to analyze: Chicago, New York City, or Washington.\n").lower()
         if input_city not in city:
             print("You may have misspell the city or this city doesn't exist, please try again!", end='')
-            input_city = input("Please type ok: ")
+            input_city = input("Please type ok to continue: ")
             
             continue
         else:
@@ -35,8 +38,8 @@ def get_filters():
     while True:
         input_month = input("Please select a month or all: ").lower()
         if input_month not in month:
-            print ("You may have misspell the month, please try again!", end='')
-            input_month = input("Please retype: ")
+            print("You may have misspell the month, please try again!", end='')
+            input_month = input("Please retype the month: ")
             
             continue
         else:
@@ -45,7 +48,7 @@ def get_filters():
         input_day = input("Please select a day of the week or all - please use full name: ").lower()
         if input_day not in day:
             print("You may have misspell the day, please try again!", end='')
-            input_day = input("Please retype: ")
+            input_day = input("Please retype the day: ")
             
             continue
         else:
@@ -53,7 +56,7 @@ def get_filters():
    
 
     print('-'*40)
-    return input_city, input_month, input_day
+    return method_new(input_city)
 
 
 def load_data(city, month, day):
