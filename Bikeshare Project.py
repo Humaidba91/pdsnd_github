@@ -45,7 +45,7 @@ def get_filters():
         input_day = input("Please select a day of the week or all - please use full name: ").lower()
         if input_day not in day:
             print("You may have misspell the day, please try again!", end='')
-            input_day = input("Please retype: ")
+            input_day = input("Please retype the day: ")
             
             continue
         else:
