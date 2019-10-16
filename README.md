@@ -1,14 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+This project create at 16 october 2019
 
 ### Project Title
-Replace the Project Title
+Github project for section 3
 
 ### Description
-Describe what your project is about and what it does
+Project is to create a branch named documentation in local repository
 
 ### Files used
-Include the files used
+Bikeshare.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.

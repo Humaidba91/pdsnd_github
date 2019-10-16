@@ -38,8 +38,16 @@ def get_filters():
     while True:
         input_month = input("Please select a month or all: ").lower()
         if input_month not in month:
+<<<<<<< HEAD
             print("You may have misspell the month, please try again!", end='')
             input_month = input("Please retype the month: ")
+||||||| merged common ancestors
+            print ("You may have misspell the month, please try again!", end='')
+            input_month = input("Please retype: ")
+=======
+            print ("You may have misspell the month, please try again!", end='')
+            input_month = input("Please retype your month: ")
+>>>>>>> documentation
             
             continue
         else:
