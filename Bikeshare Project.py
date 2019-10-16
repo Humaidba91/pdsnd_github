@@ -6,6 +6,9 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+def method_new(input_city):
+    return input_city, input_month, input_day
+
 def get_filters():
     global input_month
     global input_day
@@ -53,7 +56,7 @@ def get_filters():
    
 
     print('-'*40)
-    return input_city, input_month, input_day
+    return method_new(input_city)
 
 
 def load_data(city, month, day):
