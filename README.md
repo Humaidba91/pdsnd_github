@@ -2,7 +2,7 @@
 This project create at 16 october 2019
 
 ### Project Title
-Github project
+Github project for section 3
 
 ### Description
 Project is to create a branch named documentation in local repository
