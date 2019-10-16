@@ -26,7 +26,7 @@ def get_filters():
         input_city = input("Please select the city you would like to analyze: Chicago, New York City, or Washington.\n").lower()
         if input_city not in city:
             print("You may have misspell the city or this city doesn't exist, please try again!", end='')
-            input_city = input("Please type ok: ")
+            input_city = input("Please type ok to continue: ")
             
             continue
         else:
