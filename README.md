@@ -1,11 +1,11 @@
-### Date created 15 october 2019
-Include the date you created this project and README file.
+### Date created
+This project create at 16 october 2019
 
-### Github project
-Replace the Project Title
+### Project Title
+Github project
 
 ### Description
-Describe what your project is about and what it does
+Project is to create a branch named documentation in local repository and update this file.
 
 ### Files used
 Include the files used
